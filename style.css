@@ -169,13 +169,14 @@ footer {
     .logo {
         width: 70px;
         height: 70px;
+        
     }
     .hamburguer {
-        position: relative;
-        display: block;
+        position: fixed;
         z-index: 1;
-        right: 880px;
-    
+        display: block;
+        left: 430px;
+        font-size: 2em;
     }
     
     .nav-list {
@@ -226,9 +227,10 @@ footer {
     }
     .primeira-página img {
         width: 100%;
-        height: 890px;
+        height: 830px;
         display: block;
         margin-top: -29px;
+        margin-bottom: 20px;
     }
     .segunda-página img {
         width: 100%;
