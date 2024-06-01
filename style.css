@@ -17,9 +17,7 @@ body {
 }
 .header {
     background-color: #000000;
-    padding-inline: 16px;
-    width: 100vw;
-    height: 100%;
+    padding-inline:  16px;
 
     position: sticky;
     top: 0;
@@ -69,6 +67,9 @@ body {
    background-size: cover;
    background-attachment: fixed;
    padding-top: 29px;
+}
+.primeira-página img {
+    display: none;
 }
 .segunda-página {
 
@@ -162,24 +163,21 @@ footer {
 }
 @media screen and (max-width: 750px) {
     body {
-       overflow-x: hidden; 
+       overflow-x: hidden;
+       height: 100vh; 
     }
     .logo {
-        font-size: 1em;
         width: 70px;
         height: 70px;
-    }
-    .header {
-        width: 100px;
-        height: 90px;
     }
     .hamburguer {
         position: relative;
         display: block;
         z-index: 1;
-        right: 860px;
+        right: 880px;
     
     }
+    
     .nav-list {
         position: fixed;
         top: 0;
@@ -226,13 +224,11 @@ footer {
         transform: rotate(-135deg);
         top: -7px;
     }
-    .primeira-página {
-        background-image: url(./imagens/Venha\ conhecer\ a_20240531_113439_0000.png);
-        overflow-x: hidden;
+    .primeira-página img {
         width: 100%;
-        height: 550px;
-        background-size: cover;
-        background-attachment: fixed;
+        height: 890px;
+        display: block;
+        margin-top: -29px;
     }
     .segunda-página img {
         width: 100%;
