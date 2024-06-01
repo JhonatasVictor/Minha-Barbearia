@@ -230,26 +230,26 @@ footer {
         top: -7px;
     }
     .primeira-página img {
-        width: 100%;
+        width: 100vw;
         height: 830px;
         display: block;
         margin-top: -29px;
         margin-bottom: 20px;
     }
     .segunda-página img {
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         margin-top: -5px;
         
     }
     .terceira-página img {
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         margin-top: -5px;
     }
     .quarta-página img {
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         margin-top: -5px;
     }
     .form {
@@ -257,7 +257,7 @@ footer {
         background-color: #000000;
         font-size: 1em;
         width: 100vw;
-        height: 100%;
+        height: 100vh;
         padding-top: 40px;
         border: 8px solid rgba(255, 255, 255, 0);
         border-radius: 4px;
@@ -306,8 +306,8 @@ footer {
         
     }
     .quinta-página img {
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         margin-top: -5px;
     }
     
