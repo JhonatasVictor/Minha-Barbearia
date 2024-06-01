@@ -322,4 +322,7 @@ footer {
     footer {
         font-size: 1.1em;
     }
+    button {
+      max-width: 6.8%;
+    }
 }
